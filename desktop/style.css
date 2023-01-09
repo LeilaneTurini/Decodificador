@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/*808 altura e largura 1000*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: #E5E5E5;
+    
+
+}
+section{
+    margin-top:  10px;
+    margin-left: 40px;
+}
+
+#logo {
+
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 40px;
+
+}
+
+textarea {
+    position: absolute;
+    width: 600px;
+    height: 380px;
+    left: 240px;
+    top: 100px;
+    border: none;
+    display: flex;
+    background-color: #E5E5E5;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(10, 56, 113, 1)
+}
+
+::placeholder {
+    color: rgba(10, 56, 113, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+
+}
+
+#info {
+    margin-top: 400px;
+    margin-left: 240px;
+    margin-bottom: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.botoes{
+display: inline;
+padding: 24px;
+width: 300px;
+height:60px;
+box-sizing: border-box;
+border-radius: 24px;
+font-size: 16px;
+cursor: pointer;
+margin-bottom: 26px;
+}
+
+ #cripto{
+color: #ffffff;
+background-color: #0A3871;
+border: none;
+}
+
+#descripto{
+
+color: #ffffff;
+background-color:#D8DFE8;
+border: 1px solid #0A3871;
+color:#0A3871;
+
+}
+#retangulo {
+    position: absolute;
+    background: #fff;
+    width: 380px;
+    height: 620px;
+    left: 950px;
+    top: 30px;
+    bottom: 40px;
+    border-radius: 32px;
+
+}
+
+#retangulo>#desenho {
+    position: block;
+    margin-top: 20%;
+
+}
+#retangulo > #text{
+    text-align: center;
+    font-size: 24px;
+    margin:20px;
+}
+#retangulo  #p{
+    margin:20px;
+    font-size: 20px;
+line-height: 150%;
+color:#495057;
+}
+
+footer{
+    color: #0A3871;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+footer a{ text-decoration: none;
+    color: #0A3871;
+}
