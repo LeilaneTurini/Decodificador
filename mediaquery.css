@@ -14,13 +14,13 @@
 
     textarea {
         width: 343px;
-        height: 200px;
-        left: 24px;
+        height: 250px;
+        left: 12%;
         top: 152px;
     }
 
     #info {
-        margin-left: 18px;
+        margin-left: 16px;
 
     }
 
@@ -52,7 +52,9 @@
         display: none;
     }
     footer{
-
+        
+            margin-top: 10px;
+            margin-left: 30px;
     }
 }
 
