@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*celular*/
+@media screen and (min-width: 481px) and (max-width:667px) { 
+
+    textarea{
+        width: 343px;
+        height: 58px;
+        left: 24px;
+        top: 152px;
+    }
+    #info{
+        margin-left: 18px;
+            
+    }
+    .botoes{
+    
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 335px;
+        height: 67px;   
+
+            }
+        
+    .botoes:hover{
+        width:345px;
+        transition: 200ms ;
+        box-shadow: 3px 3px 5px #000000;
+    }
+    #retangulo {
+        display: flex;
+        align-items: flex-start;
+        width: 345px;
+        height: 200px;
+        left: 12%;
+        top: 720px;
+    }
+    #retangulo>#desenho {
+        display: none;
+    }
+
+    footer{
+        margin-top: 250px;
+    }
+}
+
+/*tablet*/
+@media screen and (min-width: 770px) and (max-width:992px)  {
+
+    #retangulo>#desenho {
+        display: none;
+    }
+
+
+
+
+}
