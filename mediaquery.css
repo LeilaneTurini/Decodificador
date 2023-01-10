@@ -4,10 +4,9 @@
 @media screen and (min-width: 320px) and (max-width:667px) {
 
     body,section {
-        height: 933px;
-        width: 375px;
-        left: -227px;
-        top: 3588px;
+        height: 500px;
+        width: 360px;
+        left: -230px;
         border-radius: 0px;
 
 
@@ -15,7 +14,7 @@
 
     textarea {
         width: 343px;
-        height: 58px;
+        height: 200px;
         left: 24px;
         top: 152px;
     }
@@ -52,14 +51,13 @@
     #retangulo>#desenho {
         display: none;
     }
+    footer{
 
-    footer {
-        margin-top: 250px;
     }
 }
 
 /*tablet*/
-@media screen and (min-width: 770px) and (max-width:992px) {
+@media screen and (min-width: 481px) and (max-width:992px) {
 
     #retangulo>#desenho {
         display: none;
