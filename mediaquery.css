@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*celular*/
-@media screen and (min-width: 320px) and (max-width:667px) {
+@media screen and (min-width:0px) and (max-width:667px) {
 
     
     html, body{
@@ -62,13 +62,57 @@
 }
 
 /*tablet*/
-@media screen and (min-width: 481px) and (max-width:992px) {
+@media screen and (min-width:667px) and (max-width:992px) {
 
+html{ 
+    height: 1174px;
+    width: 768px;
+    left: -2277px;
+    top: 2024px;
+
+}
+
+    textarea {
+        position: absolute;
+        width: 688px;
+        height: 300px;
+        left: 40px;
+        top: 100px;
+    }
+    #info {
+        width: 300px;
+        height: 18px;
+        margin-left: 40px;
+        
+    }
+    div .botoes {
+        
+        left: 40px;
+    }
+
+ div .botoes:hover {
+        width: 290px;
+    }
+    
+
+   
+
+    #retangulo {
+        top: 730px;
+        height: 133px;
+        width: 688px;
+        left: 40px;
+    }
     #retangulo>#desenho {
         display: none;
     }
 
+    footer{
+        
+        margin-top: 300px;
+        text-align: center;
+        padding: 25px;
 
-
+}
 
 }

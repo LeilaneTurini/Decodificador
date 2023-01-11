@@ -9,6 +9,7 @@
 }
 
 body {
+    margin: auto;
     background-color: #E5E5E5;
     width: 100vw;
     height: 100vh;
@@ -50,7 +51,7 @@ textarea {
 }
 
 #info {
-    margin-top: 410px;
+    margin-top: 420px;
     margin-left: 240px;
     margin-bottom: 18px;
     font-family: 'Inter';
