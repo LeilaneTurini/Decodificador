@@ -10,9 +10,9 @@
     }
 
     textarea {
-        width: 343px;
+        width: 290px;
         height: 250px;
-        left: 50px;
+        left: 40px;
         top: 152px;
     }
 
@@ -20,7 +20,7 @@
         font-size: 16px;
         flex:none;        
         width:400px;
-        margin-left: 50px;
+        margin-left: 40px;
         
 
     }
@@ -46,7 +46,7 @@
         align-items: flex-start;
         width: 325px;
         height: 250px;
-        left: 50px;
+        left: 40px;
         top: 720px;
     }
 
@@ -56,7 +56,7 @@
     footer{
         
             margin-top: 300px;
-            margin-left: 50px;
+            margin-left: 40px;
             padding: 25px;
     }
 }
