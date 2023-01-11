@@ -3,39 +3,39 @@
 /*celular*/
 @media screen and (min-width: 320px) and (max-width:667px) {
 
-    section{
-     margin-top:  20px;
-    margin-left: 20px;
-    }
+    
     html, body{
         height: 600px;
         width: 300px;
-        margin-right: 25px;
     }
 
     textarea {
         width: 343px;
         height: 250px;
-        left: 100px;
+        left: 70px;
         top: 152px;
     }
 
     #info {
-        width: 300px;
+        font-size: 16px;
+        flex:none;        
+        width:400px;
         margin-left: 70px;
+        
 
     }
 
-    .botoes {
-        margin-left: 50px;
+    div .botoes {
+        
+        left: 70px;
         margin-top: 10px;
         margin-bottom: 5px;
-        width: 325px;
+        width: 300px;
         height: 67px;
 
     }
 
-    .botoes:hover {
+    div .botoes:hover {
         width: 330px;
         transition: 200ms;
         box-shadow: 3px 3px 5px #000000;
@@ -55,8 +55,9 @@
     }
     footer{
         
-            margin-top: 350px;
-            margin-left: 60px;
+            margin-top: 300px;
+            margin-left: 70px;
+            padding: 25px;
     }
 }
 
