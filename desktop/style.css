@@ -130,11 +130,12 @@ color:#0A3871;
 }
 
 footer{
+    
     color: #0A3871;
-    padding-top: 30px;
     text-align: center;
     width: 100%;
     background-color: #E5E5E5;
+    margin-top: 50px;
     
 }
 footer a{ 

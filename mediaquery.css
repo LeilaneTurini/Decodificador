@@ -12,7 +12,7 @@
     textarea {
         width: 343px;
         height: 250px;
-        left: 70px;
+        left: 50px;
         top: 152px;
     }
 
@@ -20,14 +20,14 @@
         font-size: 16px;
         flex:none;        
         width:400px;
-        margin-left: 70px;
+        margin-left: 50px;
         
 
     }
 
     div .botoes {
         
-        left: 70px;
+        left: 50px;
         margin-top: 10px;
         margin-bottom: 5px;
         width: 300px;
@@ -46,7 +46,7 @@
         align-items: flex-start;
         width: 325px;
         height: 250px;
-        left: 70px;
+        left: 50px;
         top: 720px;
     }
 
@@ -56,7 +56,7 @@
     footer{
         
             margin-top: 300px;
-            margin-left: 70px;
+            margin-left: 50px;
             padding: 25px;
     }
 }
