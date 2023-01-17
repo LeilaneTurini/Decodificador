@@ -3,116 +3,145 @@
 /*celular*/
 @media screen and (min-width:0px) and (max-width:667px) {
 
-    
-    html, body{
+
+    body {
         height: 600px;
         width: 300px;
     }
 
-    textarea {
+    
+    .digite {
         width: 290px;
         height: 250px;
-        left: 40px;
-        top: 152px;
+        font-size: 28px;
+        line-height: 40px;
     }
 
     #info {
         font-size: 16px;
-        flex:none;        
-        width:400px;
-        margin-left: 40px;
-        
+        width: 280px;
+        margin-left: 20px;
 
     }
 
-    div .botoes {
-        
-        left: 50px;
+    .botoes>#descripto,
+    .botoes>#cripto {
+        position: flex;
         margin-top: 10px;
         margin-bottom: 5px;
-        width: 300px;
+        width: 100%;
         height: 67px;
 
     }
 
-    div .botoes:hover {
-        width: 330px;
-        transition: 200ms;
-        box-shadow: 3px 3px 5px #000000;
+    .botoes>#descripto {
+        margin-left: 0px;
     }
 
-    #retangulo {
-        display: flex;
-        align-items: flex-start;
-        width: 325px;
+    .mensagem {
+        
+        position: absolute;
+        width: 310px;
         height: 250px;
-        left: 40px;
-        top: 720px;
-    }
+        margin-left: 0px;
+        margin-top: 600px;
 
-    #retangulo>#desenho {
+    }
+    /*.mensagem>.sem-mensagem{
+        display: none;
+    }*/
+    .mensagem>.sem-mensagem img {
         display: none;
     }
-    footer{
-        
-            margin-top: 300px;
-            margin-left: 40px;
-            padding: 25px;
+
+    .mensagem>.sem-mensagem h2 {
+        font-size: 20px;
+        width: 100%;
+
+    }
+
+    .mensagem>.sem-mensagem p {
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .resultado{
+        display: none;
+    }
+    .resultado textarea{
+        height: 68%;
+    }
+   
+    .copiar{
+        position: relative;
+        width: 50%;
+        height: 40px;
+        margin-top:30px;
+}
+
+    footer {
+        width: 300px;
+        padding-top: 300px;
+        padding-bottom: 10px;
+        margin-left: 90px;
     }
 }
 
 /*tablet*/
 @media screen and (min-width:667px) and (max-width:992px) {
 
-html{ 
-    height: 1174px;
-    width: 768px;
-    left: -2277px;
-    top: 2024px;
+    html {
+        height: 1174px;
+        width: 768px;
+        left: -2277px;
+        top: 2024px;
 
-}
+    }
 
-    textarea {
+    .digite {
         position: absolute;
         width: 688px;
         height: 300px;
         left: 40px;
         top: 100px;
     }
+
     #info {
         width: 300px;
         height: 18px;
         margin-left: 40px;
-        
+
     }
-    div .botoes {
-        
+
+    .botoes {
+
         left: 40px;
     }
 
- div .botoes:hover {
-        width: 290px;
-    }
-    
 
-   
-
-    #retangulo {
+    .mensagem {
+        background-image: none;
         top: 730px;
         height: 133px;
         width: 688px;
         left: 40px;
     }
-    #retangulo>#desenho {
-        display: none;
+
+    .copiar {
+        position: flex;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 300px;
+        height: 67px;
     }
 
-    footer{
-        
+    footer {
+
         margin-top: 300px;
         text-align: center;
         padding: 25px;
 
-}
+    }
 
 }
