@@ -9,7 +9,7 @@
         width: 300px;
     }
     main{
-        margin:35px;
+        margin:40px;
     }
 
     
@@ -22,6 +22,7 @@
 
     #info {
         font-size: 16px;
+        line-height: 5px;
     }
 
     .botoes>#descripto,
@@ -41,10 +42,10 @@
     .mensagem {
         
         position: absolute;
-        width: 300px;
+        width: 290px;
         height: 250px;
         margin-left: 0px;
-        margin-top: 620px;
+        top: 750px;
 
     }
     /*.mensagem>.sem-mensagem{
