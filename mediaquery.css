@@ -9,7 +9,8 @@
         width: 300px;
     }
     main{
-        margin:45px;
+        margin-left:45px;
+        margin-right: 45px;
     }
 
     
@@ -21,8 +22,7 @@
     }
 
     #info {
-        font-size: 16px;
-        line-height: 10px;
+        font-size: 12px;
     }
 
     .botoes>#descripto,
@@ -48,9 +48,9 @@
         top: 750px;
 
     }
-    /*.mensagem>.sem-mensagem{
-        display: none;
-    }*/
+    mensagem>.sem-mensagem{
+        display: none;}
+    
     .mensagem>.sem-mensagem img {
         display: none;
     }
@@ -67,21 +67,20 @@
         width: 100%;
         margin-bottom: 50px;
     }
-    .resultado{
-        display: none;
-    }
+   
     .resultado textarea{
         height: 68%;
     }
    
     .copiar{
-        position: relative;
+        position: absolute;
         width: 50%;
         height: 40px;
         margin-top:30px;
 }
 
     footer {
+        margin-top: 450px;
         width: 300px;
         padding-top: 300px;
         padding-bottom: 10px;
@@ -91,56 +90,27 @@
 }
 
 /*tablet*/
-@media screen and (min-width:667px) and (max-width:992px) {
+@media screen and (min-width:668px) and (max-width:992px) {
 
-    html {
-        height: 1174px;
-        width: 768px;
-        left: -2277px;
-        top: 2024px;
-
+    body {
+        height: 1384px;
+        width: 7680px;
     }
-
-    .digite {
-        position: absolute;
-        width: 688px;
-        height: 300px;
-        left: 40px;
-        top: 100px;
-    }
-
-    #info {
-        width: 300px;
-        height: 18px;
-        margin-left: 40px;
-
-    }
-
-    .botoes {
-
-        left: 40px;
-    }
-
-
     .mensagem {
-        background-image: none;
-        top: 730px;
-        height: 133px;
-        width: 688px;
-        left: 40px;
+    position:absolute;
+        height: 300px;
+        left: -35px;
+        margin-top: 550px;
+        width: 60%;
     }
-
-    .copiar {
-        position: flex;
-        margin-top: 10px;
-        margin-bottom: 5px;
-        width: 300px;
-        height: 67px;
+    .mensagem>.sem-mensagem img{
+        display: none;
     }
+    .resultado
 
     footer {
 
-        margin-top: 300px;
+        margin-top: 20px;
         text-align: center;
         padding: 25px;
 

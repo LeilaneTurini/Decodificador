@@ -105,8 +105,8 @@ main {
     width: 420px;
     position: relative;
     height: 550px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 .mensagem> .sem-mensagem img {
     margin-top: 4px;
@@ -135,7 +135,7 @@ main {
 
 
 .resultado {
-    display:none;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -166,7 +166,7 @@ textarea:focus {
 .copiar {
     position: relative;
     bottom: 30px;
-    width: 360px;
+    width: 340px;
     height: 67px;
     border: 1px solid #0A3871;
     border-radius: 24px;
